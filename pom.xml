@@ -50,7 +50,7 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:https@github.com:vasilypu/sfg-pet-clinic1.git</developerConnection>
+		<developerConnection>scm:git:git@github.com:vasilypu/sfg-pet-clinic1.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
