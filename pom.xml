@@ -24,7 +24,7 @@
 
 	<scm>
 		<developerConnection>
-			scm:git:git@github.com:vasilypu/sfg-pet-clinic1.git
+			scm:git@github.com:vasilypu/sfg-pet-clinic1.git
 		</developerConnection>
 	  <tag>sfg-pet-clinic1-clear</tag>
   </scm>
