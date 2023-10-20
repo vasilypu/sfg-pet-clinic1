@@ -22,12 +22,7 @@
 		<java.version>1.8</java.version>
 	</properties>
 
-	<scm>
-		<developerConnection>
-			scm:git@github.com:vasilypu/sfg-pet-clinic1.git
-		</developerConnection>
-	  <tag>sfg-pet-clinic1-clear</tag>
-  </scm>
+
 
 	<build>
 		<plugins>
@@ -44,5 +39,10 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<developerConnection>scm:git:git@github.com:vasilypu/sfg-pet-clinic1.git</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
 
 </project>
