@@ -13,6 +13,7 @@
 		<version>2.7.16</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>guru.springframework</groupId>
 	<artifactId>sfg-pet-clinic1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -22,19 +23,23 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<scm>
+		<developerConnection>
+			scm:git:git@github.com/vasilypu/sfg-pet-clinic1.git
+		</developerConnection>
+	</scm>
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
+					<goals>install</goals>
 				</configuration>
 			</plugin>
 		</plugins>
